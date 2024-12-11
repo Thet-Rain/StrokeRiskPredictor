@@ -1,0 +1,199 @@
+.button {
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: linear-gradient(to bottom, #00B4D8, #0077B6);
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 3, 0.5, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #0077B6, #03045E);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 5, 0.5, 0, 3);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.button:pressed {
+    -fx-background-color: #0077B6;
+    -fx-effect: none;
+    -fx-translate-y: 2px;
+}
+
+.combo-box {
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: #03045E;
+    -fx-background-color: linear-gradient(to bottom, #FFFFFF, #CAF0F8);
+    -fx-border-color: #00B4D8;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 2, 0.5, 0, 1);
+}
+
+.combo-box:focused {
+    -fx-border-color: #0077B6;
+    -fx-background-color: linear-gradient(to bottom, #E0F7FA, #CAF0F8);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 3, 0.5, 0, 2);
+}
+
+.context-menu {
+    -fx-background-color: #0077B6;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-effect: none;
+}
+
+.label {
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #03045E;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 2, 0.5, 0, 1);
+}
+
+.menu-button {
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: transparent;
+    -fx-padding: 5px 15px;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+}
+
+.menu-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #0077B6, #03045E);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 5, 0.5, 0, 3);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.menu-button:pressed {
+    -fx-background-color: #0077B6;
+    -fx-effect: none;
+    -fx-translate-y: 2px;
+}
+
+.menu-button>.label {
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 3, 0.5, 0, 2);
+    -fx-cursor: hand;
+}
+
+.menu-button:hover>.label {
+    -fx-text-fill: #CAF0F8;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.text-field {
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: #03045E;
+    -fx-background-color: linear-gradient(to bottom, #FFFFFF, #CAF0F8);
+    -fx-border-color: #00B4D8;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 2, 0.5, 0, 1);
+}
+
+.text-field:focused {
+    -fx-border-color: #0077B6;
+    -fx-background-color: linear-gradient(to bottom, #E0F7FA, #CAF0F8);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 3, 0.5, 0, 2);
+}
+
+#assessmentPagePane {
+    -fx-background-color: linear-gradient(to bottom, #CAF0F8, #00b4d8);
+    -fx-alignment: center;
+    -fx-border-radius: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0.0, 10, 10);
+    -fx-padding: 5px;
+}
+
+#footerHBox {
+    -fx-border-color: #0077B6;
+    -fx-border-width: 2px 0 0 0;
+    -fx-border-style: solid;
+    -fx-padding: 10px;
+    -fx-spacing: 20px;
+    -fx-alignment: center;
+}
+
+#githubLabel:hover {
+    -fx-text-fill: #CAF0F8;
+    -fx-cursor: hand;
+    -fx-underline: true;
+}
+
+#githubLabel,
+#createdByLabel,
+#versionLabel {
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-opacity: 0.9;
+}
+
+#homeButton,
+#helpButton {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-font-size: 16px;
+    -fx-padding: 5px 15px;
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+}
+
+#homeButton:hover,
+#helpButton:hover {
+    -fx-text-fill: #CAF0F8;
+}
+
+#menuBar {
+    -fx-background-color: linear-gradient(to bottom, #00B4D8, #0077B6);
+    -fx-padding: 5px;
+    -fx-spacing: 10px;
+    -fx-alignment: center-left;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 3, 0.5, 0, 2);
+    -fx-border-color: transparent;
+}
+
+
+@media screen and (max-width: 1024px) {
+    #logoLabel {
+        -fx-font-size: 40px;
+    }
+
+    #assessmentPagePane {
+        -fx-padding: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #logoLabel {
+        -fx-font-size: 32px;
+    }
+
+    #assessmentPagePane {
+        -fx-padding: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #logoLabel {
+        -fx-font-size: 24px;
+    }
+
+    #assessmentPagePane {
+        -fx-padding: 5px;
+    }
+}

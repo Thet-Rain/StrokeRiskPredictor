@@ -1,0 +1,217 @@
+.button {
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: linear-gradient(to bottom, #00B4D8, #0077B6);
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 3, 0.5, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #0077B6, #03045E);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 5, 0.5, 0, 3);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.button:pressed {
+    -fx-background-color: #0077B6;
+    -fx-effect: none;
+    -fx-translate-y: 2px;
+}
+
+.context-menu {
+    -fx-background-color: #0077B6;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-effect: none;
+}
+
+.label {
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #03045E;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 2, 0.5, 0, 1);
+}
+
+.menu-button {
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: transparent;
+    -fx-padding: 5px 15px;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+}
+
+.menu-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #0077B6, #03045E);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 5, 0.5, 0, 3);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.menu-button:pressed {
+    -fx-background-color: #0077B6;
+    -fx-effect: none;
+    -fx-translate-y: 2px;
+}
+
+.menu-button>.label {
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 3, 0.5, 0, 2);
+    -fx-cursor: hand;
+}
+
+.menu-button:hover>.label {
+    -fx-text-fill: #CAF0F8;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.tooltip {
+    -fx-background-color: #0077B6;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+    -fx-border-color: #CAF0F8;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+#callToActionLabel {
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-font-weight: normal;
+    -fx-font-size: 18px;
+    -fx-text-fill: #03045E;
+    -fx-text-align: center;
+    -fx-letter-spacing: 0.5px;
+    -fx-padding: 10px;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 5, 0.0, 2, 2);
+}
+
+#footerHBox {
+    -fx-border-color: #0077B6;
+    -fx-border-width: 2px 0 0 0;
+    -fx-border-style: solid;
+    -fx-padding: 10px;
+    -fx-spacing: 20px;
+    -fx-alignment: center;
+}
+
+#githubLabel,
+#createdByLabel,
+#versionLabel {
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-opacity: 0.9;
+}
+
+#githubLabel:hover {
+    -fx-text-fill: #CAF0F8;
+    -fx-cursor: hand;
+    -fx-underline: true;
+}
+
+#homeButton,
+#helpButton {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-font-size: 16px;
+    -fx-padding: 5px 15px;
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+}
+
+#homeButton:hover,
+#helpButton:hover {
+    -fx-text-fill: #CAF0F8;
+    /* Blue highlight */
+}
+
+#landingPagePane {
+    -fx-background-color: linear-gradient(to bottom, #CAF0F8, #00b4d8);
+    -fx-padding: 5px;
+    -fx-alignment: center;
+    -fx-border-radius: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0.0, 10, 10);
+}
+
+#logoImage {
+    -fx-effect: dropshadow(gaussian, #00b4d865, 30, 0.7, 0, 0);
+}
+
+#logoLabel {
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 48px;
+    -fx-text-fill: #03045E;
+    -fx-text-align: center;
+    -fx-letter-spacing: 1px;
+    -fx-padding: 0px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 5, 0.0, 2, 2);
+
+}
+
+#menuBar {
+    -fx-background-color: linear-gradient(to bottom, #00B4D8, #0077B6);
+    -fx-padding: 5px;
+    -fx-spacing: 10px;
+    -fx-alignment: center-left;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 3, 0.5, 0, 2);
+    -fx-border-color: transparent;
+}
+
+#taglineLabel {
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-font-weight: normal;
+    -fx-font-size: 24px;
+    -fx-text-fill: #03045E;
+    -fx-text-align: center;
+    -fx-letter-spacing: 0.5px;
+    -fx-padding: 10px;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 5, 0.0, 2, 2);
+}
+
+@media screen and (max-width: 1024px) {
+    #logoLabel {
+        -fx-font-size: 40px;
+    }
+
+    #landingPagePane {
+        -fx-padding: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #logoLabel {
+        -fx-font-size: 32px;
+    }
+
+    #landingPagePane {
+        -fx-padding: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #logoLabel {
+        -fx-font-size: 24px;
+    }
+
+    #landingPagePane {
+        -fx-padding: 5px;
+    }
+}
